@@ -6,11 +6,11 @@ Usage:
     python main.py
 """
 
-from frontend.main_window import MainWindow
+from frontend.app_window import AppWindow
 
 
 def main():
-    app = MainWindow()
+    app = AppWindow()
     app.mainloop()
 
 
